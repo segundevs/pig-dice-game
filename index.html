@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css"> 
+        <title>Pig Game</title>
+    </head>
+
+    <body>
+        <main class="container clearfix">
+          <nav class="navbar">
+            <ul>
+              <li><a href="rules.html">Rules</a></li>
+            </ul>
+          </nav>
+            <section class="player-0-panel active">
+                <h2 class="player-name" id="name-0">Player 1</h2>
+                <h3 class="player-score" id="score-0">0</h3>
+                <div class="player-current-box">
+                    <h4 class="player-current-label">Current</h4>
+                    <h4 class="player-current-score" id="current-0">0</h4>
+                </div>
+            </section>
+            
+            <section class="player-1-panel">
+                <h2 class="player-name" id="name-1">Player 2</h2>
+                <h3 class="player-score" id="score-1">0</h3>
+                <div class="player-current-box">
+                    <h4 class="player-current-label">Current</h4>
+                    <h4 class="player-current-score" id="current-1">0</h4>
+                </div>
+            </section>
+            
+            <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+            <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+            <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
+            <h5 class="pref-score">Please enter your prefered final score below</h5>
+            <input type="text" placeholder="High Score" class="final-score">
+            
+            <img src="img/dice-5.png" alt="Dice" class="dice">
+        </main>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
