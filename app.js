@@ -101,7 +101,7 @@ class Dice {
 }
 
 //Instatiating the Dice class
-const dice = new Dice;
+const dice = new Dice();
 
 
 //Event listeners
